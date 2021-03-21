@@ -2,13 +2,7 @@ class CatalogueException(Exception):
     """Exception raised for errors in the Catalogue"""
     def __init__(self, message):
         super().__init__(message)
-
-
-class BasketException(Exception):
-    """Exception raised for errors in the Basket"""
-    def __init__(self, message):
-        super().__init__(message)
-
+        
 
 class Basket:
     def __init__(self, name, catalogue, offers):
