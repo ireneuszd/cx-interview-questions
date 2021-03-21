@@ -24,3 +24,6 @@ Assumptions that have been made:
         'Sardines': [{'amount': 1, 'discount': lambda price: Decimal(0.3)}]
     }
 3) I assume that two or more offers can not be combined on the same product 
+
+To run the tests:
+python -m unittest shopping_basket_tests.TestBasket
